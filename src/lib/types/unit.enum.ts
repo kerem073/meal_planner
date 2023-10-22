@@ -1,5 +1,5 @@
 export enum Unit {
-    piece,
-    kg,
-    ml
+    "piece",
+    "kg",
+    "ml"
 }
