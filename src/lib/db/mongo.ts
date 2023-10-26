@@ -7,3 +7,6 @@ export function start_mongo(){
     console.log("starting mongo...");
     return client.connect();
 }
+let colleciton_recipes = client.db("meal_planner").collection("recipes") // db() goes to the database that is in the MONGODB_URL
+
+export { colleciton_recipes }
